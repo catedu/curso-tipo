@@ -27,6 +27,17 @@ Para cambiar los datos del footer hay que tocar dos archivos: `book.json` y `FOO
       }
     ]
   },
+  
+  ...
+  
+    "edit-link": {
+      "base": "https://github.com/catedu/________nombre-del-repo____________/edit/master",
+      "label": "Edita esta página"
+    },
+    "githubcontributors": {
+      "githubOwner": "catedu",
+      "githubRepository": "______nombre-del-repo___________"
+    },
 ```
 
 En el `FOOTER.md` concretamente las etiquetas sólo habría que tocar `{{ book.authors[0] }}` si tuviéramos más de un autor.
